@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite Weight Watchers  Tests" parallel="false" allow-return-values="false">
+<test name="Test Suite Weight Watchers Tests">
+	<classes>
+		  <class name="com.test.ww.WWTestCases"/>
+		<methods>
+			<include name="TestCase1_PrintFoodItems"></include>
+			<include name="TestCase2_PrintFoodServingsFromMap"></include>
+		</methods>
+	</classes>
+</test>
+</suite>

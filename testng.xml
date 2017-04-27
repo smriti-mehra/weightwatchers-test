@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+<listeners>
+       <!--<listener class-name="org.uncommons.reportng.HTMLReporter"/>-->
+       <listener class-name="org.testng.reporters.DotTestListener"/>
+       <!--<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>-->
+  </listeners> 
+  <!-- To use Internet Explorer value=IE, for Chrome value=chrome   for firefox use value = FF-->
+<parameter name="browser-name"  value="FF"/>
+<parameter name="url-name" value="file:///C:/Users/dchawla/Desktop/webpage.html"></parameter>
+  <test name="Testing Weight Watchers APPLICATION"> </test>
+  <test name="Test">
+    <suite-files>
+  			<suite-file path="./DataInput/XmlFiles/testcases.xml"/>
+   	</suite-files>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
