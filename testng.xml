@@ -7,8 +7,8 @@
        <!--<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>-->
   </listeners> 
   <!-- To use Internet Explorer value=IE, for Chrome value=chrome   for firefox use value = FF-->
-<parameter name="browser-name"  value="FF"/>
-<parameter name="url-name" value="file:///C:/Users/dchawla/Desktop/webpage.html"></parameter>
+<parameter name="browser-name"  value="chrome"/>
+<parameter name="url-name" value="https://www.weightwatchers.com/us/"></parameter>
   <test name="Testing Weight Watchers APPLICATION"> </test>
   <test name="Test">
     <suite-files>

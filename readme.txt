@@ -10,7 +10,7 @@ Readme:
 		c. Click on the add external jar button and add all the jar files from the location \WeightWatchers_Test\lib
 
 Question 1: 
-The solution of this problem is solved in Main.java. To run this, please run Main.java as a java application. Enter the string in console and view the output of the string reversed.
+The solution of this problem is solved in readfile.java. To run this please run it as a java application. The results will be seen on the console.
 
 Question 2: 		
 Steps to Run the project
@@ -19,5 +19,5 @@ Steps to Run the project
 This will start executing the project. After it has completed execution you can access a basic report from the following location \WeightWatchers_Test\Test-output\Test Suite WeightWatercher Tests\Test Suite WeightWatchers Tests.html
 
 Question 3:
-The solution of this problem is solved in readfile.java. To run this please run it as a java application. The results will be seen on the console.
+The solution of this problem is solved in RandomNumber.java. To run this please run it as a java application. The results will be seen on the console.
 

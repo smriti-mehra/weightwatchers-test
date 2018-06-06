@@ -30,8 +30,11 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+/**
+ * @author smehra
+ *
+ */
 public class WWTestBase {
-	
 	WebDriver driver;
 	public String baseUrl = "";
 	protected String resourceFileName;
@@ -47,6 +50,7 @@ public class WWTestBase {
 	@BeforeClass
 	@Parameters({"browser-name","url-name"})
 	public void setup(String browser, String url)throws Exception{
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\dchawla\\workspace\\ENSO_Test\\lib\\geckodriver.exe");
 		if(browser.equalsIgnoreCase("FF")){
 			System.out.println("Firefox Browser is used");
 			driver = new FirefoxDriver();
@@ -112,6 +116,24 @@ public class WWTestBase {
 		       }
 		     return xpath;
 		}
+	
+	//wait action for a few seconds
+ 	public void waitfor(int number) throws Exception
+ 	{
+ 		Thread.sleep(number);
+ 	}
+ 	//click action is performed
+ 	public void click(String xpath)
+ 	{
+ 		driver.findElement(By.xpath(xpath)).click();
+ 	}
+ 	//user input action will be performed
+ 	public void sendkeys(String xpath, String input)
+ 	{
+ 		driver.findElement(By.xpath(xpath)).sendKeys(input);
+ 	}
+ 	
 
 
 }
+

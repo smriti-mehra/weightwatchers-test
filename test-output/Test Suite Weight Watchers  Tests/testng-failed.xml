@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite Weight Watchers  Tests]">
+  <parameter name="url-name" value="https://www.weightwatchers.com/us/"/>
+  <parameter name="browser-name" value="chrome"/>
+  <listeners>
+    <listener class-name="org.testng.reporters.DotTestListener"/>
+  </listeners>
+  <test name="Test Suite Weight Watchers Tests(failed)">
+    <classes>
+      <class name="com.test.ww.WWTestCases">
+        <methods>
+          <include name="TestCase3_LocationSearch"/>
+          <include name="TestCase4_Hours"/>
+          <include name="TestCase2_MeetingPageTitle"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test.ww.WWTestCases -->
+    </classes>
+  </test> <!-- Test Suite Weight Watchers Tests(failed) -->
+</suite> <!-- Failed suite [Test Suite Weight Watchers  Tests] -->

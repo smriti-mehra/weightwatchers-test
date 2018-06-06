@@ -5,8 +5,10 @@
 	<classes>
 		  <class name="com.test.ww.WWTestCases"/>
 		<methods>
-			<include name="TestCase1_PrintFoodItems"></include>
-			<include name="TestCase2_PrintFoodServingsFromMap"></include>
+			<include name="TestCase1_WebPageTitle"></include>
+			<include name="TestCase2_MeetingPageTitle"></include>
+			<include name="TestCase3_LocationSearch"></include>
+			<include name="TestCase4_Hours"></include>
 		</methods>
 	</classes>
 </test>

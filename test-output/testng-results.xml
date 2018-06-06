@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23" started-at="2018-06-06T02:46:52Z" finished-at="2018-06-06T02:46:53Z">
+    <groups>
+    </groups>
+    <test name="Testing Weight Watchers APPLICATION" duration-ms="0" started-at="2018-06-06T02:46:52Z" finished-at="2018-06-06T02:46:52Z">
+    </test> <!-- Testing Weight Watchers APPLICATION -->
+    <test name="Test" duration-ms="0" started-at="2018-06-06T02:46:53Z" finished-at="2018-06-06T02:46:53Z">
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Test Suite Weight Watchers  Tests" duration-ms="26600" started-at="2018-06-06T02:46:26Z" finished-at="2018-06-06T02:46:52Z">
+    <groups>
+    </groups>
+    <test name="Test Suite Weight Watchers Tests" duration-ms="26600" started-at="2018-06-06T02:46:26Z" finished-at="2018-06-06T02:46:52Z">
+      <class name="com.test.ww.WWTestCases">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.test.ww.WWTestCases@124409e]" name="setup" is-config="true" duration-ms="15338" started-at="2018-06-05T22:46:26Z" finished-at="2018-06-05T22:46:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.weightwatchers.com/us/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TestCase1_WebPageTitle()[pri:0, instance:com.test.ww.WWTestCases@124409e]" name="TestCase1_WebPageTitle" duration-ms="2451" started-at="2018-06-05T22:46:41Z" finished-at="2018-06-05T22:46:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase1_WebPageTitle -->
+        <test-method status="PASS" signature="TestCase2_MeetingPageTitle()[pri:0, instance:com.test.ww.WWTestCases@124409e]" name="TestCase2_MeetingPageTitle" duration-ms="4845" started-at="2018-06-05T22:46:44Z" finished-at="2018-06-05T22:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase2_MeetingPageTitle -->
+        <test-method status="PASS" signature="TestCase3_LocationSearch()[pri:0, instance:com.test.ww.WWTestCases@124409e]" name="TestCase3_LocationSearch" duration-ms="3898" started-at="2018-06-05T22:46:49Z" finished-at="2018-06-05T22:46:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase3_LocationSearch -->
+        <test-method status="PASS" signature="TestCase4_Hours()[pri:0, instance:com.test.ww.WWTestCases@124409e]" name="TestCase4_Hours" duration-ms="45" started-at="2018-06-05T22:46:52Z" finished-at="2018-06-05T22:46:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase4_Hours -->
+      </class> <!-- com.test.ww.WWTestCases -->
+    </test> <!-- Test Suite Weight Watchers Tests -->
+  </suite> <!-- Test Suite Weight Watchers  Tests -->
+</testng-results>
